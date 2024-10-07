@@ -1,4 +1,4 @@
-
+package KVTransaction;
 public interface IDStorage {
     void save(String key, String value) throws Exception;
     void update(String key, String value) throws Exception;
